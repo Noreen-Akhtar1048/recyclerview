@@ -28,6 +28,6 @@ public class MainActivity extends AppCompatActivity {
             blah_list.add("Hello World!"+i);
         }
         adapter = new my_adapter(blah_list);
-        recyclerView.setAdapter(my_adapter);
+        recyclerView.setAdapter(adapter);
     }
 }
